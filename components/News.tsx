@@ -127,7 +127,7 @@ export default function LeftColumn() {
                 {item.title}
               </h2>
               
-              <p className="text-xs text-gray-600 mt-0.5 leading-relaxed line-clamp-2">
+              <p className="text-xs text-white- mt-0.5 leading-relaxed line-clamp-2">
                 {item.description}
               </p>
               

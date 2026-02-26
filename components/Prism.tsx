@@ -55,9 +55,9 @@ const ArticleCard: React.FC<Article> = ({ img, title, description, author, date 
     <div className="p-4 flex flex-col justify-between h-[calc(100%-12rem)]">
       <div>
         <h2 className="font-bold text-lg">{title}</h2>
-        {description && <p className="text-sm text-gray-700 mt-2 line-clamp-4">{description}</p>}
+        {description && <p className="text-sm text-black mt-2 line-clamp-4">{description}</p>}
       </div>
-      <p className="text-xs text-gray-500 mt-2">
+      <p className="text-xs text-black mt-2">
         <span>{author}</span> <br /> <span>{date}</span>
       </p>
     </div>

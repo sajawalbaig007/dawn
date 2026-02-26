@@ -69,7 +69,7 @@ export default function News2() {
             {/* Text - left side */}
             <div className="flex-1">
               <Link href="/news2">
-                <p className="text-[12px] font-semibold text-gray-800 hover:text-red-700 cursor-pointer leading-tight">
+                <p className="text-[12px] font-semibold md:text-black sm:text-white hover:text-red-700 cursor-pointer leading-tight">
                   {story.text}
                 </p>
               </Link>
